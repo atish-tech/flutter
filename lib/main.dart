@@ -1,32 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:testapp_vs_code/pages/first_page.dart';
+import 'package:testapp_vs_code/pages/second_page.dart';
+// import 'package:flutter/widgets.dart';
+// import 'package:flutter/widgets.dart';
+// import 'package:flutter/widgets.dart';
+// import 'package:testapp_vs_code/app/app.dart';
 
 void main() {
-  runApp(Container(
-    color: Color.fromARGB(255, 63, 216, 243),
-    child: const Center(
-      child: Text(
-        'TrueDax',
-        textDirection: TextDirection.ltr,
-        style: TextStyle(
-          color: Colors.white,
-          fontSize: 30,
-        ),
-      ),
-    ),
-  ));
+  runApp(const MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World! hii'),
-        ),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: FirstPage(),
+      routes: {'/secondPage': (context) => SecondPage()},
     );
   }
 }

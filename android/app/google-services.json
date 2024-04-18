@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "557598080873",
+    "project_id": "e-commerse-clone",
+    "storage_bucket": "e-commerse-clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557598080873:android:1e81ac7e79c751ed3f47f8",
+        "android_client_info": {
+          "package_name": "com.example.testapp_vs_code"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557598080873-l5dc919b19hgaiv8tva3b5hdfpaphd75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrMN60-ziuaXQdd7EFpNHA90J0vcY2bvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557598080873-l5dc919b19hgaiv8tva3b5hdfpaphd75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
